@@ -1,0 +1,19 @@
+# DermalScanAI - Python Dependencies
+# Install all dependencies: pip install -r requirements.txt
+
+# Web Application Framework
+streamlit>=1.28.0
+
+# Image Processing
+pillow>=10.0.0
+opencv-python>=4.8.0.74
+
+# Numerical Operations
+numpy>=1.24.0
+
+# Deep Learning
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# Note: TensorFlow includes Keras, but listed separately for clarity
+# For GPU support, replace tensorflow with tensorflow-gpu (requires CUDA)
